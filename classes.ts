@@ -19,6 +19,11 @@ class Employee {
         // return this.name + " " + this.address
         return `${this.name} stays at ${this.address}`
     }
+    // static function we can directly access this function with creating an intance of the class
+    static getDetails(): number{
+        // return this.name + " " + this.address
+       return 50;
+    }
     // just like other languages we don't use two constructor at a time in typescript,it will throw an error
     // constructor() {}
     constructor(id: number, name: string, address: string) {
@@ -29,6 +34,10 @@ class Employee {
     }
 
 }
+
+// static function we can directly access this function with creating an intance of the class
+Employee.getDetails() // no need to create intence of the class
+
 
 let john = new Employee(1,'santa', 'USA');
 
