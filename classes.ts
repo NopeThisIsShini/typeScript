@@ -12,6 +12,14 @@ class Employee {
     protected name: string;
     address: string;
 
+    // getter and setter
+    
+    get empId(): number{
+        return this.#id;
+    }
+    set empId(id: number){
+        this.#id = id
+    }
 
 
     // member function 
@@ -38,8 +46,13 @@ class Employee {
 // static function we can directly access this function with creating an intance of the class
 Employee.getDetails() // no need to create intence of the class
 
+// getter and setter 
+
+
 
 let john = new Employee(1,'santa', 'USA');
+john.empId = 10;
+console.log(john.empId)
 
 // when we don't have constructor
 // john.id = 1;
