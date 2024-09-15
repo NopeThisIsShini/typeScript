@@ -13,7 +13,7 @@ let result = parseInt("25");
 console.log(result);
 
 // boolean datatype
-let isValid: boolean;
+let isValid: number;
 // in java or dotnet if i don't define any value it will be false, but in type script it will be undefined if i don't define any value
 // console.log(isValid);
 
@@ -54,3 +54,10 @@ console.log(c)
 let dept: any;
 dept = 'IT';
 dept = "10";
+
+
+function test (){
+    // numm: number =5
+    
+}
+ // console.log(numm)

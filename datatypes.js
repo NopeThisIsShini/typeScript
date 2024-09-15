@@ -47,3 +47,7 @@ console.log(c);
 let dept;
 dept = 'IT';
 dept = "10";
+function test() {
+    // numm: number =5
+}
+// console.log(numm)
