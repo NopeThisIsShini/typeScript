@@ -76,3 +76,4 @@ class manager extends Employee {
 // we can't access private member directly but we can access using any function, which holds that member 
 // here like getName()
 let man = new manager(1, 'santa', 'USA');
+//# sourceMappingURL=classes.js.map

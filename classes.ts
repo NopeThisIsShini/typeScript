@@ -1,3 +1,4 @@
+import { login } from "./interfaces";
 class Employee {
     // if we don't have constructor we need to put ! mark like this to avoid the initializer error
     // id!: number;
